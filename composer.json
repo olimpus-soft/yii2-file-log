@@ -1,7 +1,8 @@
 {
     "name": "olimpus-soft/yii2-file-log",
     "description": "Clase estatica para crear logs en Yii2.",
-    "type": "yii2-extension",
+    "type": "library",
+    "version": "1.01",
     "keywords": [
         "olimpus",
         "olimpus-soft",
@@ -14,9 +15,8 @@
         "log"
     ],
     "homepage": "https://olimpussoft.com/extension/yii2-file-log",
-    "license": "BSD-3-Clause",
+    "license": "Apache-2.0",
     "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
       "php": ">=7.2.0",
       "yiisoft/yii2": "^2.0"
@@ -45,18 +45,7 @@
     "autoload": {
         "psr-4": {
             "OlimpusSoft\\": "src"
-        }
-    },
-    "config": {
-        "fxp-asset": {
-            "installer-paths": {
-                "npm-asset-library": "vendor/npm"
-            }
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
+        },
+        "files": ["src/Logger.php", "scr/FingerPrint.php"]
     }
 }
