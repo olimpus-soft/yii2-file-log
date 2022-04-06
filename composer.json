@@ -2,7 +2,6 @@
     "name": "olimpus-soft/yii2-file-log",
     "description": "Clase estatica para crear logs en Yii2.",
     "type": "library",
-    "version": "1.01",
     "keywords": [
         "olimpus",
         "olimpus-soft",
