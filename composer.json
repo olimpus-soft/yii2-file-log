@@ -46,6 +46,6 @@
         "psr-4": {
             "OlimpusSoft\\": "src"
         },
-        "files": ["src/Logger.php", "scr/FingerPrint.php"]
+        "files": ["src/Logger.php", "src/FingerPrint.php"]
     }
 }
