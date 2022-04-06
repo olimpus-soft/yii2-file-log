@@ -17,9 +17,12 @@
     "license": "BSD-3-Clause",
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "version": "1.0.0",
     "require": {
-      "php": ">=7.2.0"
+      "php": ">=7.2.0",
+      "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
     },
     "authors": [
       {
@@ -38,12 +41,6 @@
     "support": {
         "issues": "https://github.com/olimpus-soft/yii2-file-log/issues",
         "source": "https://github.com/olimpus-soft/yii2-file-log"
-    },
-    "require": {
-      "yiisoft/yii2": "^2.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "4.*"
     },
     "autoload": {
         "psr-4": {
