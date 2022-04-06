@@ -1,2 +1,2 @@
-# functions
-Funciones de encriptación de datos
+# Logger
+Clase estaica para logs en Yii2

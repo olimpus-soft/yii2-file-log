@@ -1,0 +1,65 @@
+{
+    "name": "olimpus-soft/yii2-file-log",
+    "description": "Clase estatica para crear logs en Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "olimpus",
+        "olimpus-soft",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "logger",
+        "log"
+    ],
+    "homepage": "https://olimpussoft.com/extension/yii2-file-log",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "1.0.0",
+    "require": {
+      "php": ">=7.2.0"
+    },
+    "authors": [
+      {
+        "name": "Miguel Angel Morales Coterio",
+        "email": "miguelmoralescoterio@gmail.com",
+        "homepage": "https://olimpussoft.com",
+        "role": "Developer"
+      },
+      {
+        "name": "Miguel Angel Morales Coterio",
+        "email": "mmorales@olimpussoft.com",
+        "homepage": "https://olimpussoft.com",
+        "role": "CEO/Developer"
+      }
+    ],
+    "support": {
+        "issues": "https://github.com/olimpus-soft/yii2-file-log/issues",
+        "source": "https://github.com/olimpus-soft/yii2-file-log"
+    },
+    "require": {
+      "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "OlimpusSoft\\": "src"
+        }
+    },
+    "config": {
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm"
+            }
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
